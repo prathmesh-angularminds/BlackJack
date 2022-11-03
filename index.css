@@ -1,0 +1,109 @@
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+/* BlackJack */
+.BlackJack {
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url('./blackjack1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.BlackJack_MainContainer {
+
+    width: 50%;
+    height: 70%;
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.BlackJack_Title {
+
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(255, 187, 0);
+
+    box-sizing: border-box;
+    margin: 10px 0px;
+}
+
+.BlackJack_SubTitle {
+
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: white;
+
+    box-sizing: border-box;
+    margin: 15px 0px;
+}
+
+.BlackJack_Calc {
+
+
+    font-size: 1rem;
+    color: white;
+
+    margin: 11px 0px;
+    box-sizing: border-box;
+}
+
+.BlackJack_CardsCnt, .BlackJack_SumCnt {
+
+    font-weight: 600;
+
+    margin: 10px 0px;
+    box-sizing: border-box;
+}
+
+.BlackJack_ButtonsContainer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.BlackJack_StartGameBtn, .BlackJack_NewCardBtn {
+
+    height: 40px;
+    width: 200px;
+
+    font-size: 1rem;
+    font-weight: 700;
+    color: #3F9D53;
+    text-transform: uppercase;
+    background-color: rgb(255, 187, 0);
+    border: none;
+
+}
+
+.BlackJack_StartGameBtn {
+
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+
+.BlackJack_Per {
+
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: white;
+}
